@@ -73,7 +73,7 @@ contract NFT is ERC721URIStorage, Ownable {
      * make move, they can supply a new x,y coordinate and update
      * their token metadata.
      */
-    function makeMove(
+    function updateNFT(
         uint256 tokenId,
         uint256 x,
         uint256 y
